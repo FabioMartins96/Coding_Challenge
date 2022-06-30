@@ -1,0 +1,80 @@
+/* ! Sezione CSS per gli elementi HTML
+---------------------------------------------*/
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    padding-top: 35px;
+    text-align: center;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+
+/* ! Sezione CSS delle varie classi
+---------------------------------------------*/
+.box {
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.5);
+    width: 1200px;
+    margin: 30px auto;
+    padding-bottom: 150px;
+}
+
+.img-logo {
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 250px;
+    position: relative;
+    top: 15px;
+}
+
+.title {
+    color: #00dd00;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+.navbar {
+    background-color: #00dd00;
+    padding: 15px;
+    text-align: center;
+}
+
+.barra1 {
+    background-color: #f5b453;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.barra2 {
+    background-color: #1ec31e;
+    width: 600px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.barra3 {
+    background-color: #be4141;
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+}
